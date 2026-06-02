@@ -37,11 +37,11 @@ public class GameManager : MonoBehaviour
 
     void AtualizarUI()
     {
-        scoreText.text = "Score: " + score;
+        scoreText.text = "Pontuação: " + score;
 
-        ammoText.text = "Ammo: " + ammo + "/30";
+        ammoText.text = "Pikachus: " + ammo + "/30";
 
-        timerText.text = "Time: " + Mathf.Ceil(tempo);
+        timerText.text = "Tempo: " + Mathf.Ceil(tempo);
     }
 
     void FimDeJogo()
